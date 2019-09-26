@@ -43,3 +43,9 @@ The version should no longer be underlined and the 'Create' button clickable.
 ![workaround2](media/workaround2.png)
 
 Create the release and wait until the deploy finished. The website is now updated.
+
+## Changing the E-Mail footer or layout
+
+The html used for the automated E-Mails is stored at 'src\VisioUploader\wwwroot\email.html'. You can edit and view it as any normal html file.
+
+The '$pin$' will be replaced by the actual pin, so make sure to include it.
