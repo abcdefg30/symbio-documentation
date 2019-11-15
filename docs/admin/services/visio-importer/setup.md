@@ -46,6 +46,10 @@ Create the release and wait until the deploy finished. The website is now update
 
 ## Changing the E-Mail footer or layout
 
-The html used for the automated E-Mails is stored at 'src\VisioUploader\wwwroot\email.html'. You can edit and view it as any normal html file.
+The html used for the automated E-Mails is stored at 'src\VisioUploader\wwwroot\email.html'. You can edit and view it like any normal html file.
 
 The '$pin$' will be replaced by the actual pin, so make sure to include it.
+
+## Changing the 'Nutzungsbedingungen'
+
+The html used for the 'Nutzungsbedingungen' is stored at 'src\VisioUploader\wwwroot\nutzungsbedingungen.html'. You can edit and view it like any normal html file.
