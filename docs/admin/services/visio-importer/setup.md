@@ -25,22 +25,3 @@ The Token, the URL and category GUID are added to the Tool using the [Website](h
 This returns a GUID which is needed by the user to complete an import.
 
 ![guidGeneration](media/guidGeneration.png)
-
-## Website build and deploy process
-
-To update the website, first push your commits onto the master or develop branch (builds are automated there) or queue a build manually after pushing to a different branch.
-Once the build completed, press the 'Release' button in the build overview.
-
-![releaseButton](media/releaseButton.png)
-
-Create the release and wait until the deploy finished. The website is now updated.
-
-## Changing the E-Mail footer or layout
-
-The html used for the automated E-Mails is stored at 'src\VisioUploader\wwwroot\email.html'. You can edit and view it like any normal html file.
-
-The '$pin$' will be replaced by the actual pin, so make sure to include it.
-
-## Changing the 'Nutzungsbedingungen'
-
-The html used for the 'Nutzungsbedingungen' is stored at 'src\VisioUploader\wwwroot\nutzungsbedingungen.html'. You can edit and view it like any normal html file.
