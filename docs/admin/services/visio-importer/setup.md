@@ -33,15 +33,6 @@ Once the build completed, press the 'Release' button in the build overview.
 
 ![releaseButton](media/releaseButton.png)
 
-Scroll to the bottom in the opened overlay. You will see that the version of the source alias 'visio-connector' is highlighted red.
-
-![workaround](media/workaround.png)
-
-This is a bug and can be worked around by selecting an older version and then again the newest, or writing a blank space after the underlined version and removing it again.
-The version should no longer be underlined and the 'Create' button clickable.
-
-![workaround2](media/workaround2.png)
-
 Create the release and wait until the deploy finished. The website is now updated.
 
 ## Changing the E-Mail footer or layout
