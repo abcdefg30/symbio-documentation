@@ -21,7 +21,7 @@ Go to your Symbio installation and create a new category or select an existing o
 
 Select the 'ContextKey' GUID from there and copy it.
 
-The Token, the URL and category GUID are added to the Tool using the [Website](https://visio.symbioweb.com/home).  
+The Token, the URL and category GUID are added to the Tool using the [Website](https://visio.symbioweb.com/pzdebug).  
 This returns a GUID which is needed by the user to complete an import.
 
 ![guidGeneration](media/guidGeneration.png)
