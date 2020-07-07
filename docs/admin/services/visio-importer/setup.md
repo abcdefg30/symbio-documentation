@@ -8,7 +8,7 @@ Select the 'data, Rest API endpoint' task and create a new 'Authentication token
 ![automation](media/createAutomation.png)
 
 Select the token and copy the ID displayed on the right.  
-Then scroll down to 'Application roles'. Expand it and check the 'Administrator' box.  
+Then scroll down to 'Application roles'. Expand it and check the 'Architect' box.  
 If you want to change the token's lifespan (default is 3 months), you can do so in the collapsed 'Validity' field further down below the ID field.
 
 Besides the token an URL is needed for the import. The URL is the base URL to your Symbio instance appended with '_api'. (In our case "https://pz-1904.symbioweb.com/Test/visio-importer/_api".)  
